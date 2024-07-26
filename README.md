@@ -1,5 +1,10 @@
 # Chasm Network Node Guide
 
+<p align="center">
+<img src='image.jpg' width='500'>
+</p>
+
+
 ### Project Information
 
 - Twitter : [@ChasmNetwork](https://x.com/ChasmNetwork)
@@ -150,3 +155,7 @@ curl -X POST \
 
 - You can now check your node status here : [Visit](https://scout.chasm.net/dashboard)
 - If you see Yellow or Green, it means your node is working properly, also your yellow dot will be turned into green dot after 1 or 2 hrs
+
+### - Get Latest Airdrops & Updates
+
+### - Join Telegram: [HiddenGemNews](https://t.me/hiddengemnews)
