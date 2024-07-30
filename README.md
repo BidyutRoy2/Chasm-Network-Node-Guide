@@ -149,8 +149,17 @@ curl -X POST \
      -d '{"body":"{\"model\":\"gemma2-9b-it\",\"messages\":[{\"role\":\"system\",\"content\":\"You are a helpful assistant.\"}]}"}' \
      $WEBHOOK_URL
 ```
+
+## Restart Docker Container (if needed)
+
+```bash
+docker stop scout
+docker rm scout
+docker run -d --restart=always --env-file ./.env -p 3001:3001 --name scout johnsonchasm/chasm-scout
+```
+
 - Done !!
----
+
 ### Node Status
 
 - You can now check your node status here : [Visit](https://scout.chasm.net/dashboard)
